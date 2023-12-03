@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="https://www.facebook.com/azizul.tushar.589583/">
             <img src="/facebook.png" alt="Facebook Icon" />{" "}
           </a>
-          <a href="https://instagram.com/azizuli.tushar?igshid=OGQ5ZDc2ODk2ZA==">
+          <a href="https://instagram.com/azizuli.tushar">
             <img src="/instagram.png" alt="Instagram Icon" />{" "}
           </a>
           <a href="https://github.com/AIsTushar">

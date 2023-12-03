@@ -50,7 +50,11 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
             Business.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>
+            <a href="https://github.com/AIsTushar?tab=repositories">
+              WHAT WE DO?
+            </a>
+          </button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -59,12 +63,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Front-End Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Front-End Development involves creating the user interface and
+            interactivity of a website or web application. It focuses on the
+            visual aspects that users interact with, ensuring a seamless and
+            engaging experience.
           </p>
           <button>Go</button>
         </motion.div>
@@ -74,12 +78,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>API Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            API Development revolves around building Application Programming
+            Interfaces that enable communication between different software
+            systems. It plays a crucial role in ensuring data exchange and
+            functionality integration.
           </p>
           <button>Go</button>
         </motion.div>
@@ -88,12 +92,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>UI/UX Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            UI/UX Design focuses on creating a visually appealing and
+            user-friendly interface. User Interface (UI) design deals with the
+            look and feel, while User Experience (UX) design enhances overall
+            user satisfaction by improving usability and accessibility.
           </p>
           <button>Go</button>
         </motion.div>
@@ -102,12 +106,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Full-Stack Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Full-Stack Development involves working on both the front-end and
+            back-end of a web application. Full-stack developers have expertise
+            in various technologies, allowing them to handle the entire
+            development process and build end-to-end solutions.
           </p>
           <button>Go</button>
         </motion.div>
